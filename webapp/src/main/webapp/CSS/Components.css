@@ -11,6 +11,15 @@ body {
     font-family: "Inconsolata", monospace;
 }
 
+.page {
+    padding: 2rem;
+}
+
+.actions-row {
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
+}
 
 .btn {
     display: inline-block;

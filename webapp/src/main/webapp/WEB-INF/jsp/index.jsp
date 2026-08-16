@@ -6,7 +6,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;600;700&display=swap" rel="stylesheet">
 <body>
 <h2>Hello ${greeting}!</h2>
-<paw:button text="Aceptar" size="sm" cssClass="btn-aceptar" />
-<paw:button text="Cancelar" size="sm" cssClass="btn-cancelar" />
+
+<main class="page">
+        <div class="actions-row">
+            <paw:button text="Aceptar" size="sm" cssClass="btn-aceptar" />
+            <paw:button text="Cancelar" size="sm" cssClass="btn-cancelar" />
+        </div>
+</main>
+
 </body>
 </html>
