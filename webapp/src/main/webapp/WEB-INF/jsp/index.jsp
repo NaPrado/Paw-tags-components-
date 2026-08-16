@@ -9,7 +9,13 @@
 <h2>Hello ${greeting}!</h2>
 
 <main class="page">
+
         <div class="actions-row">
+        <paw:input
+                size= "md"
+                placeholderText="Escribi tu nombre"
+                inputText=""
+                />
             <paw:button text="Aceptar" size="sm" cssClass="btn-aceptar" />
             <paw:button text="Cancelar" size="sm" cssClass="btn-cancelar" />
         </div>
