@@ -7,27 +7,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;600;700&display=swap" rel="stylesheet">
 <body>
 <h2>Hello ${greeting}!</h2>
-<<<<<<< Updated upstream
 
 <main class="page">
         <div class="actions-row">
             <paw:button text="Aceptar" size="sm" cssClass="btn-aceptar" />
             <paw:button text="Cancelar" size="sm" cssClass="btn-cancelar" />
         </div>
+        <paw:card
+              title="Título"
+              content="Descripción"
+              placeholder="Próximamente" />
+        <paw:card
+              title="Título"
+              content="Descripción de la card."
+              imageUrl="${pageContext.request.contextPath}/images/ejemplo.jpg"
+              imageAlt="Descripción de la imagen" />
 </main>
-
-=======
-<paw:button text="Aceptar" size="sm" cssClass="btn-aceptar" />
-<paw:button text="Cancelar" size="sm" cssClass="btn-cancelar" />
-<paw:card
-      title="Título"
-      content="Descripción"
-      placeholder="Próximamente" />
-<paw:card
-      title="Título"
-      content="Descripción de la card."
-      imageUrl="${pageContext.request.contextPath}/images/ejemplo.jpg"
-      imageAlt="Descripción de la imagen" />
->>>>>>> Stashed changes
 </body>
 </html>
