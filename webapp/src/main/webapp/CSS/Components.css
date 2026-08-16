@@ -1,16 +1,34 @@
+:root {
+    --color-primary: #143D60;
+    --color-secondary: #A0C878;
+    --color-accent: #27667B;
+    --color-surface: #DDEB9D;
+    --color-white: #FFFFFF;
+}
+
+body {
+    background-color: var(--color-surface);
+    font-family: "Inconsolata", monospace;
+}
+
+
 .btn {
     display: inline-block;
     padding: 0.375rem 0.75rem;
     margin-bottom: 0;
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    color:var(--color-primary);
+    background-color: var(--color-surface);
     line-height: 1.5;
     text-align: center;
     text-decoration: none;
     vertical-align: middle;
     cursor: pointer;
-    border: 1px solid transparent;
-    border-radius: 0.25rem;
+    border: 2px solid transparent;
+    border-radius: 0.5rem;
+    border-color: var(--color-primary);
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     user-select: none;
 }

@@ -7,11 +7,13 @@ import org.springframework.web.servlet.ViewResolver;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.JstlView;
+import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry; //se agrego para el css
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @EnableWebMvc
 @ComponentScan("ar.edu.itba.paw.webapp.controller")
 @Configuration
-public class WebConfig {
+public class WebConfig implements WebMvcConfigurer{
 
     @Bean
     public ViewResolver viewResolver() {
@@ -23,5 +25,11 @@ public class WebConfig {
         viewResolver.setSuffix(".jsp");
 
         return viewResolver;
+    }
+
+    @Override
+    public void addResourceHandlers(final ResourceHandlerRegistry registry) {
+        registry.addResourceHandler("/CSS/**")
+                .addResourceLocations("/CSS/");
     }
 }
