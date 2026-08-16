@@ -2,20 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="824ea457-b890-4132-89dc-075136cc3eae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Paw-tags-components-.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/src/main/webapp/WEB-INF/tags/input.tag" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/webapp/target/tmp/jsp/org/apache/jsp/WEB_002dINF/jsp/index_jsp.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/webapp/target/tmp/jsp/org/apache/jsp/WEB_002dINF/jsp/index_jsp.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/webapp/target/tmp/jsp/org/apache/jsp/tag/web/button_tag.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/webapp/target/tmp/jsp/org/apache/jsp/tag/web/button_tag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/target/tmp/jsp/org/apache/jsp/tag/web/card_tag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/target/tmp/jsp/org/apache/jsp/tag/web/card_tag.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/webapp/target/tmp/jsp/org/apache/jsp/tag/web/input_tag.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/webapp/target/tmp/jsp/org/apache/jsp/tag/web/input_tag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/src/main/webapp/CSS/Components.css" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/src/main/webapp/CSS/Components.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/src/main/webapp/WEB-INF/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
