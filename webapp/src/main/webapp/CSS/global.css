@@ -1,0 +1,13 @@
+:root {
+    --color-primary: #143D60;
+    --color-secondary: #A0C878;
+    --color-accent: #27667B;
+    --color-surface: #DDEB9D;
+    --color-white: #FFFFFF;
+}
+
+body {
+    background-color: var(--color-surface);
+    margin: 0;
+    font-family: "Inconsolata", monospace;
+}

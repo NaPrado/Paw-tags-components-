@@ -1,0 +1,33 @@
+@import "../global.css";
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 18px 36px;
+
+    background-color: var(--color-primary);
+    border-bottom: 12px solid var(--color-secondary);
+}
+
+.site-header__brand a {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--color-secondary);
+    text-decoration: none;
+}
+
+.site-header__nav {
+    display: flex;
+    gap: 28px;
+}
+
+.site-header__nav a {
+    font-size: 20px;
+    color: var(--color-secondary);
+    text-decoration: none;
+}
+
+.site-header__nav a:hover {
+    text-decoration: underline;
+}

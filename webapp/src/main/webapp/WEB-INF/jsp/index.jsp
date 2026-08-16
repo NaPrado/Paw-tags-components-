@@ -3,11 +3,12 @@
 <%@ taglib prefix="paw" tagdir="/WEB-INF/tags" %>
 <html>
 <head>
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/CSS/Components.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/CSS/pages/home.css">
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
 <body>
-<h2>Hello ${greeting}!</h2>
-
+<paw:header />
+<br/>
 <main class="page">
         <div class="actions-row">
          <paw:input
