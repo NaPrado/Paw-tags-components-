@@ -23,3 +23,7 @@ out/
 ### Sistema operativo ###
 .DS_Store
 Thumbs.db
+
+### Output
+*.war
+*/target/*
