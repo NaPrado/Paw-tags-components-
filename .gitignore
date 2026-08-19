@@ -1,0 +1,25 @@
+### Maven ###
+target/
+pom.xml.versionsBackup
+release.properties
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+### Eclipse / VS Code ###
+.classpath
+.project
+.settings/
+.vscode/
+
+### Logs y temporales ###
+*.log
+.ai/
+
+### Sistema operativo ###
+.DS_Store
+Thumbs.db
