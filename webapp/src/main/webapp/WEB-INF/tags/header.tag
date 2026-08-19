@@ -8,7 +8,7 @@
     </div>
 
     <nav class="site-header__nav">
-        <a href="${pageContext.request.contextPath}/adopciones">Adopciones</a>
-        <a href="${pageContext.request.contextPath}/contacto">Contacto</a>
+        <a href="${pageContext.request.contextPath}/">Placeholder</a>
+        <a href="${pageContext.request.contextPath}/">Placeholder</a>
     </nav>
 </header>
