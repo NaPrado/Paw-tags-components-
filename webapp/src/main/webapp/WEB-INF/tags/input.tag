@@ -21,6 +21,6 @@
         name="${name}"
         class="input-field input-${inputSize}"
         placeholder="${placeholderText}"
-        value="${inputText}"
+        value="<c:out value='${inputText}'/>"
     />
 </div>

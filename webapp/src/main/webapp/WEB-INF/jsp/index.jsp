@@ -11,14 +11,13 @@
 <br/>
 <main class="page">
         <div class="actions-row">
-         <paw:input
-                        size= "md"
-                        placeholderText="Escribi tu nombre"
-                        inputText=""
-                        />
+         <paw:input size= "md" placeholderText="Nombre de tu mascota" inputText="" />
             <paw:button text="Aceptar" size="sm" cssClass="btn-aceptar" />
             <paw:button text="Cancelar" size="sm" cssClass="btn-cancelar" />
         </div>
+        </br>
+        </br>
+        <div class="actions-row">
         <paw:card
               title="Título"
               content="Descripción"
@@ -28,6 +27,7 @@
               content="Descripción de la card."
               imageUrl="${pageContext.request.contextPath}/images/ejemplo.jpg"
               imageAlt="Descripción de la imagen" />
+              </div>
 </main>
 </body>
 </html>
